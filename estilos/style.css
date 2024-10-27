@@ -1,0 +1,9 @@
+@import "./global/global.css";
+@import "./global/header.css";
+
+@import "./global/ultilidades/coolors.css";
+@import "./global/ultilidades/typography.css";
+@import "./global/ultilidades/menu-mobile.css";
+
+
+@import "./home/introducao.css";

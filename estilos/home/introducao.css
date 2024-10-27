@@ -1,0 +1,22 @@
+.introducao{
+    height: 100vh;
+}
+.carrosel{
+    filter: drop-shadow(0px 0px 10px #000);
+    overflow: hidden;
+    position: absolute;
+    top: -40px;
+    width: 100%;
+
+}
+
+.container-teste{
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}   
+
+#img{
+    object-fit: cover;
+    height: 900px;
+}
