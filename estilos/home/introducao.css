@@ -4,10 +4,10 @@
 .carrosel{
     filter: drop-shadow(0px 0px 10px #000);
     overflow: hidden;
-    position: absolute;
-    top: -40px;
-    width: 100%;
-
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: 0 auto;
+    padding-top: 200px;
 }
 
 .container-teste{
@@ -18,5 +18,4 @@
 
 #img{
     object-fit: cover;
-    height: 900px;
 }

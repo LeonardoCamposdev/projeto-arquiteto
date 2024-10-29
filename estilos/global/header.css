@@ -9,12 +9,11 @@
 
 .header-conteudo img {
   max-width: 200px;
-  box-shadow: rgba(0, 0, 0, 0.233) 0px 1px 5px 0px;
 }
 .header-conteudo{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
