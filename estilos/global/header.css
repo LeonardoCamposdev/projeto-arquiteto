@@ -1,6 +1,6 @@
 .header-conteudo {
   padding: 20px 100px 20px 10px;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(10px);
   position: relative;
   position: fixed;
   width: 100vw;
@@ -9,6 +9,7 @@
 
 .header-conteudo img {
   max-width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.233) 0px 1px 5px 0px;
 }
 .header-conteudo{
   display: flex;
