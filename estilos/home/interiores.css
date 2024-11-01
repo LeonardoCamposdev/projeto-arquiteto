@@ -130,7 +130,7 @@
 
 @media (max-width:750px){
   .interiores-conteudo img{
-    max-width: 280px;
+    max-width: 320px;
   }
 
   #interiores-img3{
@@ -141,7 +141,98 @@
   }
 }
 
+@media (max-width:640px){
+  .interiores-conteudo img{
+    max-width: 280px;
+  }
+}
+
 @media (max-width:565px){
+  .interiores-conteudo img{
+    max-width: 260px;
+  }
+  #interiores-img1{
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    z-index: 5999;
+  }
+  
+  #interiores-img2{
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    z-index: 5998;
+  }
+
+  #interiores-img3{
+    position: absolute;
+    top: 370px;
+    left: 200px;
+    z-index: 5997;
+  }
+}
+
+@media (max-width:540px){
+  .interiores-conteudo img{
+    max-width: 250px;
+  }
+  #interiores-img1{
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    z-index: 5999;
+  }
+  
+  #interiores-img2{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    z-index: 5998;
+  }
+
+  #interiores-img3{
+    position: absolute;
+    top: 370px;
+    left: 160px;
+    z-index: 5997;
+  }
+}
+
+
+@media (max-width:470px){
+  .interiores-conteudo img{
+    max-width: 250px;
+  }
+
+  #interiores-img1{
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    z-index: 5999;
+  }
+  
+  #interiores-img2{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 5998;
+  }
+
+  #interiores-img3{
+    position: absolute;
+    top: 370px;
+    left: 120px;
+    z-index: 5997;
+  }
+}
+
+
+@media (max-width:420px){
+  .interiores-conteudo img{
+    max-width: 240px;
+  }
+
   #interiores-img1{
     position: absolute;
     top: 300px;
@@ -155,7 +246,6 @@
     left: 60px;
     z-index: 5998;
   }
-  
 
   #interiores-img3{
     position: absolute;
@@ -164,3 +254,6 @@
     z-index: 5997;
   }
 }
+
+
+
