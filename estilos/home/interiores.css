@@ -180,21 +180,21 @@
   #interiores-img1{
     position: absolute;
     top: 300px;
-    left: 40px;
+    left: 60px;
     z-index: 5999;
   }
   
   #interiores-img2{
     position: absolute;
     top: 80px;
-    left: 100px;
+    left: 120px;
     z-index: 5998;
   }
 
   #interiores-img3{
     position: absolute;
     top: 370px;
-    left: 160px;
+    left: 180px;
     z-index: 5997;
   }
 }
