@@ -1,21 +1,22 @@
-.interiores-bg{
-  background-color: var(--cor-1);
+.interiores-bg {
+  background-color: var(--cor-4);
 }
 
-.interiores-container{
+.interiores-container {
   max-width: 1800px;
+  padding-bottom: 80px;
 }
 
-.interiores-conteudo{
+.interiores-conteudo {
   position: relative;
 }
 
-.interiores-conteudo span{
+.interiores-conteudo span {
   display: inline-block;
   font-size: 5.5rem;
   font-weight: 100;
   padding: 8px 160px;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   color: rgb(247, 251, 255);
   position: absolute;
   left: 28%;
@@ -23,41 +24,41 @@
   z-index: 9998;
 }
 
-.interiores-lista{
-  height: 1000px;
+.interiores-lista {
+  height: 950px;
   padding-top: 80px;
   display: flex;
   gap: 40px;
   position: relative;
 }
 
-.interiores-conteudo img{
+.interiores-conteudo img {
   max-width: 600px;
   max-height: 600px;
 }
 
-#interiores-img1{
+#interiores-img1 {
   position: absolute;
   top: 300px;
   left: 120px;
   z-index: 5999;
 }
 
-#interiores-img2{
+#interiores-img2 {
   position: absolute;
   top: 80px;
   left: 360px;
   z-index: 5998;
 }
 
-#interiores-img3{
+#interiores-img3 {
   position: absolute;
   top: 370px;
   left: 720px;
   z-index: 5997;
 }
 
-#interiores-img4{
+#interiores-img4 {
   position: absolute;
   top: 100px;
   left: 1000px;
@@ -65,33 +66,37 @@
   max-width: 390px;
 }
 
-@media (max-width: 1445px){
-  .interiores-conteudo img{
+@media (max-width: 1445px) {
+  .interiores-conteudo img {
     max-width: 420px;
   }
 
-  #interiores-img1{
+  .interiores-lista {
+    height: 900px;
+  }
+
+  #interiores-img1 {
     position: absolute;
     top: 300px;
     left: 80px;
     z-index: 5999;
   }
-  
-  #interiores-img2{
+
+  #interiores-img2 {
     position: absolute;
     top: 80px;
     left: 180px;
     z-index: 5998;
   }
-  
-  #interiores-img3{
+
+  #interiores-img3 {
     position: absolute;
     top: 370px;
     left: 520px;
     z-index: 5997;
   }
-  
-  #interiores-img4{
+
+  #interiores-img4 {
     position: absolute;
     top: 100px;
     left: 800px;
@@ -100,18 +105,23 @@
   }
 }
 
-@media (max-width: 1230px){
-  .interiores-conteudo span{
+@media (max-width: 1230px) {
+  .interiores-conteudo span {
     left: 24%;
     top: 40%;
     font-size: 4rem;
   }
 
-  .interiores-conteudo img{
-    max-width: 360px;
+  .interiores-lista{
+    height: 800px;
   }
   
-  #interiores-img4{
+
+  .interiores-conteudo img {
+    max-width: 360px;
+  }
+
+  #interiores-img4 {
     position: absolute;
     top: 100px;
     left: 640px;
@@ -120,12 +130,16 @@
   }
 }
 
-@media (max-width: 1070px){
-  .interiores-conteudo img{
+@media (max-width: 1070px) {
+  .interiores-conteudo img {
     max-width: 320px;
   }
-  
-  #interiores-img4{
+
+  .interiores-lista{
+    height: 750px;
+  }
+
+  #interiores-img4 {
     position: absolute;
     top: 100px;
     left: 580px;
@@ -134,39 +148,39 @@
   }
 }
 
-@media (max-width:930px){
-  .interiores-conteudo span{
+@media (max-width: 930px) {
+  .interiores-conteudo span {
     left: 15%;
     top: 40%;
     font-size: 3.5rem;
     padding: 8px 140px;
   }
 
-  #interiores-img3{
+  #interiores-img3 {
     position: absolute;
     top: 370px;
     left: 380px;
     z-index: 5997;
   }
 
-  #interiores-img4{
+  #interiores-img4 {
     display: none;
   }
 }
 
-@media (max-width:750px){
-  .interiores-conteudo span{
+@media (max-width: 750px) {
+  .interiores-conteudo span {
     left: 15%;
     top: 40%;
     font-size: 3.5rem;
     padding: 8px 100px;
   }
 
-  .interiores-conteudo img{
+  .interiores-conteudo img {
     max-width: 320px;
   }
 
-  #interiores-img3{
+  #interiores-img3 {
     position: absolute;
     top: 370px;
     left: 240px;
@@ -174,38 +188,46 @@
   }
 }
 
-@media (max-width:640px){
-  .interiores-conteudo img{
+@media (max-width: 640px) {
+  .interiores-conteudo img {
     max-width: 280px;
+  }
+
+  .interiores-lista{
+    height: 700px;
   }
 }
 
-@media (max-width:565px){
-  .interiores-conteudo span{
+@media (max-width: 565px) {
+  .interiores-conteudo span {
     left: 10%;
     top: 40%;
     font-size: 3.5rem;
     padding: 8px 80px;
   }
 
-  .interiores-conteudo img{
+  .interiores-lista{
+    height: 670px;
+  }
+
+  .interiores-conteudo img {
     max-width: 260px;
   }
-  #interiores-img1{
+  #interiores-img1 {
     position: absolute;
     top: 300px;
     left: 80px;
     z-index: 5999;
   }
-  
-  #interiores-img2{
+
+  #interiores-img2 {
     position: absolute;
     top: 80px;
     left: 140px;
     z-index: 5998;
   }
 
-  #interiores-img3{
+  #interiores-img3 {
     position: absolute;
     top: 370px;
     left: 200px;
@@ -213,25 +235,25 @@
   }
 }
 
-@media (max-width:540px){
-  .interiores-conteudo img{
+@media (max-width: 540px) {
+  .interiores-conteudo img {
     max-width: 250px;
   }
-  #interiores-img1{
+  #interiores-img1 {
     position: absolute;
     top: 300px;
     left: 60px;
     z-index: 5999;
   }
-  
-  #interiores-img2{
+
+  #interiores-img2 {
     position: absolute;
     top: 80px;
     left: 120px;
     z-index: 5998;
   }
 
-  #interiores-img3{
+  #interiores-img3 {
     position: absolute;
     top: 370px;
     left: 180px;
@@ -239,34 +261,33 @@
   }
 }
 
-
-@media (max-width:470px){
-  .interiores-conteudo span{
+@media (max-width: 470px) {
+  .interiores-conteudo span {
     left: 10%;
     top: 40%;
     font-size: 3.5rem;
     padding: 8px 40px;
   }
 
-  .interiores-conteudo img{
+  .interiores-conteudo img {
     max-width: 250px;
   }
 
-  #interiores-img1{
+  #interiores-img1 {
     position: absolute;
     top: 300px;
     left: 40px;
     z-index: 5999;
   }
-  
-  #interiores-img2{
+
+  #interiores-img2 {
     position: absolute;
     top: 80px;
     left: 80px;
     z-index: 5998;
   }
 
-  #interiores-img3{
+  #interiores-img3 {
     position: absolute;
     top: 370px;
     left: 120px;
@@ -274,41 +295,36 @@
   }
 }
 
-
-@media (max-width:420px){
-  .interiores-conteudo span{
+@media (max-width: 420px) {
+  .interiores-conteudo span {
     left: 8%;
     top: 30%;
     font-size: 3.5rem;
     padding: 8px 40px;
   }
 
-
-  .interiores-conteudo img{
+  .interiores-conteudo img {
     max-width: 240px;
   }
 
-  #interiores-img1{
+  #interiores-img1 {
     position: absolute;
     top: 300px;
     left: 48px;
     z-index: 5999;
   }
-  
-  #interiores-img2{
+
+  #interiores-img2 {
     position: absolute;
     top: 80px;
     left: 78px;
     z-index: 5998;
   }
 
-  #interiores-img3{
+  #interiores-img3 {
     position: absolute;
     top: 370px;
     left: 100px;
     z-index: 5997;
   }
 }
-
-
-
