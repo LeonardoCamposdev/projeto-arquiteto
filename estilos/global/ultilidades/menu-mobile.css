@@ -49,12 +49,12 @@
   .js [data-menu="list"] {
     display: none;
     position: absolute;
-    background: var(--cor-3);
-    width: 100vw;
-    height: 250px;
+    background-color: #6D5C55;
+    width: 600px;
+    height: 100vh;
     z-index: 200;
     right: 0px;
-    top: 145px;
+    top: 0px;
     padding: 18px 7px 20px;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
@@ -80,9 +80,24 @@
   }
 
   .js [data-menu="list"].active li {
+    font-size: 1.3rem;
+    font-weight: 200;
     padding-bottom: 16px;
-    padding-top: 8px;
+    padding-top: 130px;
     border-bottom: 2px solid black;
   }
+}
 
+@media (max-width:900px){
+  .js [data-menu="list"] {
+    width: 400px;
+    height: 100vh;
+  }
+}
+
+@media (max-width:700px){
+  .js [data-menu="list"] {
+    width: 300px;
+    height: 100vh;
+  }
 }
