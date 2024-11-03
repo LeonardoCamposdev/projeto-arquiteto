@@ -277,7 +277,7 @@
 
 @media (max-width:420px){
   .interiores-conteudo span{
-    left: 5%;
+    left: 8%;
     top: 30%;
     font-size: 3.5rem;
     padding: 8px 40px;
@@ -291,14 +291,14 @@
   #interiores-img1{
     position: absolute;
     top: 300px;
-    left: 20px;
+    left: 48px;
     z-index: 5999;
   }
   
   #interiores-img2{
     position: absolute;
     top: 80px;
-    left: 60px;
+    left: 78px;
     z-index: 5998;
   }
 
