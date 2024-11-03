@@ -6,8 +6,21 @@
   max-width: 1800px;
 }
 
-.interiores-conteudo {
-  max-width: 100vh;
+.interiores-conteudo{
+  position: relative;
+}
+
+.interiores-conteudo span{
+  display: inline-block;
+  font-size: 5.5rem;
+  font-weight: 100;
+  padding: 8px 160px;
+  background-color: #DBDBDB;
+  color: rgb(247, 251, 255);
+  position: absolute;
+  left: 28%;
+  top: 50%;
+  z-index: 9998;
 }
 
 .interiores-lista{
@@ -88,6 +101,12 @@
 }
 
 @media (max-width: 1230px){
+  .interiores-conteudo span{
+    left: 24%;
+    top: 40%;
+    font-size: 4rem;
+  }
+
   .interiores-conteudo img{
     max-width: 360px;
   }
@@ -116,6 +135,13 @@
 }
 
 @media (max-width:930px){
+  .interiores-conteudo span{
+    left: 15%;
+    top: 40%;
+    font-size: 3.5rem;
+    padding: 8px 140px;
+  }
+
   #interiores-img3{
     position: absolute;
     top: 370px;
@@ -129,6 +155,13 @@
 }
 
 @media (max-width:750px){
+  .interiores-conteudo span{
+    left: 15%;
+    top: 40%;
+    font-size: 3.5rem;
+    padding: 8px 100px;
+  }
+
   .interiores-conteudo img{
     max-width: 320px;
   }
@@ -148,6 +181,13 @@
 }
 
 @media (max-width:565px){
+  .interiores-conteudo span{
+    left: 10%;
+    top: 40%;
+    font-size: 3.5rem;
+    padding: 8px 80px;
+  }
+
   .interiores-conteudo img{
     max-width: 260px;
   }
@@ -201,6 +241,13 @@
 
 
 @media (max-width:470px){
+  .interiores-conteudo span{
+    left: 10%;
+    top: 40%;
+    font-size: 3.5rem;
+    padding: 8px 40px;
+  }
+
   .interiores-conteudo img{
     max-width: 250px;
   }
@@ -229,6 +276,14 @@
 
 
 @media (max-width:420px){
+  .interiores-conteudo span{
+    left: 5%;
+    top: 30%;
+    font-size: 3.5rem;
+    padding: 8px 40px;
+  }
+
+
   .interiores-conteudo img{
     max-width: 240px;
   }
