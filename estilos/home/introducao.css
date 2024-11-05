@@ -5,12 +5,17 @@
   max-height: 1200px;
   margin: 0 auto;
   padding-top: 150px;
+  border-radius: 12px;
 }
 
 .container-teste {
   display: flex;
   transition: 0.7s ease-in-out;
   transform: translateX(0);
+}
+
+.container-teste img{
+  border-radius: 12px;
 }
 
 @media (max-width: 600px) {

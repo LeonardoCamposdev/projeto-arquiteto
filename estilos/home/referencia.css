@@ -1,0 +1,35 @@
+.referencia-conteudo{
+  padding-top: 80px;
+}
+
+.referencia-lista{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+
+#ref-1{
+  height: 650px;
+  border-radius: 12px;
+}
+
+#ref-2{
+  height: 720px;
+  border-radius: 12px;
+}
+
+@media(max-width:800px){
+  .referencia-lista{
+    grid-template-columns: 1fr;
+  }
+  
+  #ref-1{
+    height: 450px;
+  }
+
+  #ref-2{
+    height: 450px;
+  }
+}
