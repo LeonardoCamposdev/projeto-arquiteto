@@ -212,7 +212,7 @@
   }
 
   .interiores-conteudo img {
-    max-width: 260px;
+    max-width: 280px;
   }
   #interiores-img1 {
     position: absolute;
@@ -238,7 +238,7 @@
 
 @media (max-width: 540px) {
   .interiores-conteudo img {
-    max-width: 250px;
+    max-width: 280px;
   }
   #interiores-img1 {
     position: absolute;
@@ -262,7 +262,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 480px) {
   .interiores-conteudo span {
     left: 10%;
     top: 40%;
@@ -271,7 +271,7 @@
   }
 
   .interiores-conteudo img {
-    max-width: 250px;
+    max-width: 280px;
   }
 
   #interiores-img1 {
@@ -305,7 +305,7 @@
   }
 
   .interiores-conteudo img {
-    max-width: 240px;
+    max-width: 280px;
   }
 
   #interiores-img1 {
