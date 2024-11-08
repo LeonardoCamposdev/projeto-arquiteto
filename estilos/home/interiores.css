@@ -264,10 +264,10 @@
 
 @media (max-width: 480px) {
   .interiores-conteudo span {
-    left: 10%;
+    left: 5%;
     top: 40%;
     font-size: 3.5rem;
-    padding: 8px 40px;
+    padding: 16px 58px;
   }
 
   .interiores-conteudo img {
