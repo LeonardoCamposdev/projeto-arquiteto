@@ -19,7 +19,7 @@
   background-color: #dbdbdb;
   color: rgb(247, 251, 255);
   position: absolute;
-  left: 28%;
+  left: 41%;
   top: 50%;
   z-index: 9998;
 }
@@ -108,7 +108,7 @@
 
 @media (max-width: 1230px) {
   .interiores-conteudo span {
-    left: 24%;
+    left: 37%;
     top: 40%;
     font-size: 4rem;
   }
@@ -149,9 +149,18 @@
   }
 }
 
+@media (max-width: 1000px){
+  .interiores-conteudo span {
+    left: 42%;
+    top: 40%;
+    font-size: 3.5rem;
+    padding: 8px 140px;
+  }
+}
+
 @media (max-width: 930px) {
   .interiores-conteudo span {
-    left: 15%;
+    left: 26%;
     top: 40%;
     font-size: 3.5rem;
     padding: 8px 140px;
