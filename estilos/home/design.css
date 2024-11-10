@@ -19,13 +19,13 @@
   background-color: #dbdbdb;
   color: rgb(247, 251, 255);
   position: absolute;
-  left: 30%;
+  left: 10%;
   top: 240px;
 }
 
 @media (max-width: 1230px) {
   .design-conteudo span {
-    left: 29%;
+    left: 14%;
     top: 260px;
     font-size: 4rem;
   }
@@ -33,7 +33,7 @@
 
 @media (max-width: 930px) {
   .design-conteudo span {
-    left: 25%;
+    left: 8%;
     top: 260px;
     font-size: 3.5rem;
     padding: 8px 140px;
@@ -42,7 +42,7 @@
 
 @media (max-width: 750px) {
   .design-conteudo span {
-    left: 25%;
+    left: 14%;
     top: 260px;
     font-size: 3.5rem;
     padding: 8px 100px;
