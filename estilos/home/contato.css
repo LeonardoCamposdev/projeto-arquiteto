@@ -25,8 +25,8 @@
   border-bottom: 1px solid black;
 }
 
-.formulario input:active{
-  border-color: rgb(197, 112, 0);
+.formulario input:focus{
+  background-color: var(--cor-4);
 }
 
 .formulario #nome {
