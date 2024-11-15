@@ -1,0 +1,113 @@
+.incorporacao-bg{
+  height: 650px;
+  background-image: url(../../images/incorporacao-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.incorporacao-conteudo {
+  position: relative;
+}
+
+.incorporacao-conteudo span {
+  display: inline-block;
+  font-size: 5.5rem;
+  font-weight: 100;
+  padding: 8px 160px;
+  background-color: #dbdbdb;
+  color: rgb(247, 251, 255);
+  position: absolute;
+  left: 30%;
+  top: 240px;
+  z-index: 9998;
+}
+
+@media (max-width: 1230px) {
+  .incorporacao-conteudo span {
+    left: 26%;
+    top: 240px;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1080px){
+  .incorporacao-conteudo span {
+    left: 24%;
+    top: 240px;
+    font-size: 4rem;
+    padding: 8px 140px;
+  }
+}
+
+@media (max-width: 975px) {
+  .incorporacao-conteudo span {
+    left: 22%;
+    top: 240px;
+    font-size: 3.5rem;
+    padding: 8px 140px;
+  }
+}
+
+@media (max-width: 910px) {
+  .incorporacao-conteudo span {
+    left: 18%;
+    top: 240px;
+    font-size: 3.5rem;
+    padding: 8px 100px;
+  }
+}
+
+@media (max-width: 730px) {
+  .incorporacao-conteudo span {
+    left: 8%;
+    top: 240px;
+    font-size: 3.5rem;
+    padding: 8px 100px;
+  }
+}
+
+@media (max-width: 630px) {
+  .incorporacao-conteudo span {
+    left: 12%;
+    top: 240px;
+    font-size: 3.5rem;
+    padding: 8px 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .incorporacao-conteudo span {
+    left: 12%;
+    top: 240px;
+    font-size: 3.5rem;
+    padding: 8px 30px;
+  }
+}
+
+@media (max-width: 510px) {
+  .incorporacao-conteudo span {
+    left: 8%;
+    top: 240px;
+    font-size: 3.5rem;
+    padding: 16px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .incorporacao-conteudo span {
+    left: 7%;
+    top: 240px;
+    font-size: 3.5rem;
+    padding: 8px 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .incorporacao-conteudo span {
+    left: 4%;
+    top: 240px;
+    font-size: 3.3rem;
+    padding: 8px 22px;
+  }
+}
