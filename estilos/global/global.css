@@ -28,3 +28,17 @@ img {
   max-width: 1200px;
   padding: 20px 20px 80px 20px;
 }
+
+.btn{
+  cursor: pointer;
+  padding: 12px 36px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: var(--cor-4);
+  border: 1px solid var(--cor-6);
+}
+
+.btn:hover{
+  background-color: var(--cor-6);
+}
