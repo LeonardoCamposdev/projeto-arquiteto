@@ -53,6 +53,12 @@
   cursor: pointer;
 }
 
+.div-check{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  }
+
 @media (max-width: 685px) {
   .formulario #nome {
     width: 420px;
