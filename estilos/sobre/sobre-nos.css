@@ -23,6 +23,10 @@
   gap: 40px;
 }
 
+.sobre-grid img{
+  border-radius: 4px;
+}
+
 .sobre-grid p{
   font-size: 1.2rem;
   font-weight: 300;
