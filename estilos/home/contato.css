@@ -49,13 +49,12 @@
 
 .formulario .checkbox{
   padding-left: 5px;
-  text-align: left;
+  margin-bottom: 42px;
   cursor: pointer;
 }
 
 .div-check{
   display: flex;
-  align-items: baseline;
   justify-content: center;
   }
 
