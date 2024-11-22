@@ -27,6 +27,7 @@
 }
 
 .sobre-grid p {
+  text-align: center;
   font-size: 1.2rem;
   font-weight: 300;
   padding-bottom: 40px;
@@ -51,6 +52,7 @@
 }
 
 .sobre-grid-2 h2 {
+  font-size: 1.6rem;
   text-align: center;
   padding-bottom: 20px;
   font-weight: 100;

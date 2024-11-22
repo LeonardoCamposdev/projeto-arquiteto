@@ -2,8 +2,17 @@
   background-color: #48332A;
 }
 
-.footer-conteudo{
-  padding: 40px 20px;
+
+.footer-conteudo .detalhe{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  display: block;
+  background-color: #6D5C55;
+  padding: 22px;
+  margin-bottom: 68px;
 }
 
 .footer-conteudo ul{
@@ -13,6 +22,7 @@
   justify-items: center;
   font-size: 1.1rem;
   font-weight: 300;
+  padding: 0px 20px
 }
 
 .footer-conteudo ul li:hover{
@@ -29,5 +39,16 @@
   .footer-conteudo ul{
     grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .footer-conteudo .detalhe{
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width:450px){
+  .footer-conteudo .detalhe{
+    font-size: 1.6rem;
+    letter-spacing: 6px;
   }
 }
