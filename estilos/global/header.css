@@ -2,8 +2,6 @@
   padding: 20px 100px 20px 100px;
   backdrop-filter: blur(10px);
   position: relative;
-  position: fixed;
-  width: 100vw;
   z-index: 9999;
 }
 

@@ -1,15 +1,12 @@
-.sobre-nos-bg {
-}
-
 .sobre-nos-container {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 220px 20px 80px 20px;
+  padding: 40px 20px 80px 20px;
 }
 
 .sobre-nos-conteudo h1 {
   font-size: 4rem;
-  font-weight: 200;
+  font-weight: 100;
   text-align: center;
   padding-bottom: 60px;
   color: var(--cor-6);
@@ -33,6 +30,8 @@
   padding-bottom: 40px;
   color: var(--cor-6);
 }
+
+/* MOSTRAS PARTE 2 */
 
 .sobre-nos-bg2 {
   background-color: #a4948d;
