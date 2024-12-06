@@ -1,0 +1,44 @@
+[data-anime="scroll-right"]{
+  opacity: 0;
+  transform: translate3d(20px, 0, 0);
+  transition: .8s;
+}
+
+[data-anime="scroll-right"].active{
+  opacity: 1;
+  transform: translate3d(0, 0,0);
+}
+
+[data-anime="scroll-left"]{
+  opacity: 0;
+  transform: translate3d(-60px, 0,0);
+  transition: .8s;
+}
+
+[data-anime="scroll-left"].active{
+  opacity: 1;
+  transform: translate3d(0, 0,0);
+}
+
+[data-anime="scroll-down"]{
+  opacity: 0;
+  transform: translate3d(0, -100px,0);
+  transition: .9s;
+}
+
+[data-anime="scroll-down"].active{
+  opacity: 1;
+  transform: translate3d(0, 0,0);
+}
+
+[data-anime="scroll-up"]{
+  opacity: 0;
+  transform: translate3d(0, 100px,0);
+  transition: .9s;
+}
+
+[data-anime="scroll-up"].active{
+  opacity: 1;
+  transform: translate3d(0, 0,0);
+}
+
