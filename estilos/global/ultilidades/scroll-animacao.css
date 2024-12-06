@@ -1,6 +1,6 @@
 [data-anime="scroll-right"]{
   opacity: 0;
-  transform: translate3d(20px, 0, 0);
+  transform: translate3d(60px, 0, 0);
   transition: .8s;
 }
 
@@ -41,4 +41,3 @@
   opacity: 1;
   transform: translate3d(0, 0,0);
 }
-
